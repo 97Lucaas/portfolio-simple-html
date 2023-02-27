@@ -5,14 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/main.css">
+
+    <link rel="stylesheet" href="assets/boostrap/boostrap.css">
+    <script src="assets/boostrap/bootstrap.js" defer></script>
+    <script src="assets/js/burger.js" defer></script>
     <title>Document</title>
 </head>
 <body>
+
+    <header id="header">
+        <a class="top-left-img" href="index.html">
+            <object class="wave" data="assets/svg/LD.svg" width="40px" height="auto"> </object>
+        </a>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li class="underlined"><a href="">PRÉSENTATION</a></li>
+                    <li class="underlined"><a href="portfolio.html">MES PROJETS</a></li>
+                    <li class="underlined"><a href="">ME CONTACTER</a></li>
+                </ul>
+                <a onclick="Open()"><object class="burger" id="open" data="assets/svg/burger.svg" width="40px" height="auto"> </object></a>
+                <a onclick="Close()"><object class="burger" id="close" data="assets/svg/close.svg" width="40px" height="auto"> </object></a>
+            </div>
+            
+        </nav>
+    </header>
     
-<div class="container">
+    
+<div class="container start-cont">
 
     <h1>Lucas DUVERNEUIL</h1>
-    <h2>Développeur WEB</h2>
+    <h2 class="sub-title">Développeur WEB</h2>
 
 </div>
 
