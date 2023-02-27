@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Basier;
+    src: url("../fonts/basier-circle-bold.otf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Basier;
+    src: url("../fonts/basier-circle-medium.otf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Basier;
+    src: url("../fonts/basier-circle-regular.ttf");
+    font-weight: initial;
+}
+
+@font-face {
+    font-family: Basier;
+    src: url("../fonts/basier-circle-semi-bold.otf");
+    font-weight: bolder;
+}
